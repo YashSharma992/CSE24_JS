@@ -7,13 +7,24 @@
 </head>
 <body>
     <script type="text/javascript">
-        let a=2;
-        a++;
-        console.log(a);
-        a=a+1;
-        console.log(a);
-        a+1;
-        console.log(a);
+        var grade='A';
+        document.write("Entering switch block<br/>");
+        switch(grade){
+            case 'A':
+                document.write("Excellent");
+                break;
+            case 'B':
+                document.write("Good");
+                break;
+            case 'C':
+                document.write("Fair");
+                break;
+            case 'D':
+                document.write("Poor");
+                break;
+            default:
+                document.write("Invalid grade");
+        }
     </script>
 </body>
 </html>
