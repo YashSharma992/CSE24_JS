@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 450px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 40px auto;
+}
+
+h2 {
+    text-align: left;
+    font-weight: bold;
+}
+
+input {
+    width: 150px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 6px 12px;
+    margin-bottom: 15px;
+}
+
+.output {
+    margin-top: 10px;
+    font-size: 18px;
+}
