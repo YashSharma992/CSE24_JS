@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1 id="mainHeading">Welcome to JavaScript Lab</h1>
+
+    <input type="text" id="newHeading" placeholder="Enter new heading text">
+
+    <div class="btn-group">
+        <button onclick="changeHeading()">Change Heading</button>
+        <button onclick="changeBackground()">Change Background</button>
+        <button onclick="increaseFont()">Increase Font Size</button>
+        <button onclick="togglePara()">Show/Hide Paragraph</button>
+        <button onclick="resetAll()">Reset</button>
+    </div>
+
+    <p id="samplePara">
+        This is a sample paragraph. JavaScript events can dynamically change content.
+    </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
