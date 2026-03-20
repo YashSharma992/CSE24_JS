@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.input-box input {
+    padding: 6px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 6px 10px;
+    margin: 4px;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+    white-space: pre-line;
+}
